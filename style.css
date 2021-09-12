@@ -1,11 +1,98 @@
-*{
+@import url("https://fonts.googleapis.com/css2?family=Glory:wght@400;700&display=swap");
 
+* {
+
+}
+
+body {
+    font-family: 'Glory', sans-serif;
+    text-align: center;
+}
+
+.conatiner {
+    margin: auto;
+
+}
+
+.head {
+    background-color: #F24E66;
+    padding: 2rem;
+    color:white;
+}
+
+.head-line {
+    font-size: 3rem;
+    color: #0D2344;
+}
+
+#privacy-message {
+    border: #F24E66 solid 2px;
+    background-color: #0D2344;
+    padding: 1rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+#cross-btn {
+    background-color:#F24E66;
+    margin-left: 0.5rem;
+    color: white;
 }
 
 #date-of-birth {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
     display: block;
+    margin: auto;
 }
 
 #lucky-number {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
     display: block;
+    margin: auto;
+}
+
+#check-number {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    background-color: #0D2344;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+#output-box {
+    border: solid 2px #F24E66;
+    background-color: #0D2344;
+    color: white;
+    padding: 1rem;
+}
+
+.bottom {
+    background-color: #F24E66;
+    padding: 2rem;
+    color: white;
+}
+
+.love {
+    font-size: larger;
+    margin-bottom: 1rem;
+}
+
+.social {
+    font-size: x-large;
+}
+
+.social-links {
+    padding-inline-start: 0px;
+}
+
+.list-item {
+    display: inline;
+}
+
+.social-img {
+    color: #F24E66;
+    max-width: 30px;
 }
