@@ -20,10 +20,10 @@
         <div id="privacy-message">PRIVACY : <span>We don't save any data. <button id="cross-btn">X</button></span></div>
 
         <label for="date-of-birth">Date of Birth</label>
-        <input type="date" id="date-of-birth" />
+        <input required min="1" type="date" id="date-of-birth" oninput="validity.valid||(value='');"/>
 
         <label for="lucky-number">Lucky Number</label>
-        <input type="number" id="lucky-number">
+        <input required min="1" type="number" id="lucky-number" oninput="validity.valid||(value='');"/>
 
         <button id="check-number">Check</button>
         <p id="output-box"></p>
